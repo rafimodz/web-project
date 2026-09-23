@@ -1,0 +1,17 @@
+{
+  "name": "digishop",
+  "version": "1.0.0",
+  "description": "Digital products store: wallet, bKash/Nagad top-up, auto key delivery, admin panel, reseller API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
